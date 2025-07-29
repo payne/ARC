@@ -1,48 +1,105 @@
-<html>
-    <head><title>ARC</title></head>
-    <body>
-        <h1>
-Amateur Radio Club (ARC) things around Omaha, NE USA
-        </h1>
-        <h2>AARC - Ak-Sar-Ben Amateur Radio Club</h2>
-        <table border="2">
-            <th><td>Date</td>
-                <td>Location</td>
-                <td>Event</td>
-            </th>
-            <tr>
-                <td>29 July 2025 at 6 pm</td>
-                <td>HyVee 76th & Cass Omaha, NE</td>
-                <td>AARC Board Meeting is open to the public</td>
-            </tr>
-            <tr>
-                <td>3 August 2025 10am to 5pm</td>
-                <td>Chalco Hills </td>
-                <td>
-                AARC picnic is open to the public
-Activities will include a fox hunt (the metaphorical
-kind), a POTA station, and a tailgate swap meet.
-                </td>
-            </tr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+        
+        th, td {
+            border: 2px solid #333;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        tr:hover {
+            background-color: #f0f8ff;
+        }
+        
+        td {
+            vertical-align: top;
+        }
+        
+        .date-col {
+            width: 20%;
+            font-weight: 600;
+        }
+        
+        .location-col {
+            width: 30%;
+        }
+        
+        .event-col {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Event Schedule</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th class="date-col">Date</th>
+                    <th class="location-col">Location</th>
+                    <th class="event-col">Event</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+			<td>29 July 2025 at 6 pm</td>
+			<td>HyVee 76th & Cass Omaha, NE</td>
+			<td>AARC Board Meeting is open to the public</td>
+                </tr>
+                <tr>
+			<td>3 August 2025 10am to 5pm</td>
+			<td>Chalco Hills </td>
+			<td>
+			AARC picnic is open to the public
+	Activities will include a fox hunt (the metaphorical
+	kind), a POTA station, and a tailgate swap meet.
+			</td>
+                </tr>
+            </tbody>
         </table>
-
-        <h2>BARC - Bellevue Amateur Radio Club</h2>
-        <table border="2">
-            <th>
-                <td>Date</td>
-                <td>Location</td>
-                <td>Event</td>
-            </th>
-            <tr>
-                <td>Mondays at 8 pm</td>
-                <td>On the air</td>
-                <td>BARC Protocol Net</td>
-            </tr>
-            <tr>
-                <td>Tuesdays at 8 pm</td>
-                <td>On the air & zoom</td>
-                <td>BARC Tech Net</td>
-            </tr>
-        </table>
-    </body>
+    </div>
+</body>
 </html>
